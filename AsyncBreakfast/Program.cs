@@ -24,6 +24,8 @@ namespace AsyncBreakfast
             Juice oj = PourOJ();
             Console.WriteLine("oj is ready");
             Console.WriteLine("Breakfast is ready!");
+
+            Console.Read();
         }
 
         private static Juice PourOJ()
